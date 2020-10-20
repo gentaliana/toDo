@@ -1,0 +1,40 @@
+.badge {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  position: relative;
+  left: 5px;
+
+  &--green {
+    background-color: hsl(153, 47%, 49%);
+  }
+
+  &--blue {
+    background-color: hsl(198, 79%, 66%);
+  }
+
+  &--pink {
+    background-color: hsl(345, 100%, 87%);
+  }
+
+  &--grey {
+    background-color: hsl(192, 10%, 81%);
+  }
+
+  &--lime {
+    background-color: hsl(129, 49%, 81%);
+  }
+
+  &--purple {
+    background-color: hsl(281, 89%, 65%);
+  }
+
+  &--black {
+    background-color: hsl(259, 96%, 10%);
+  }
+
+  &--red {
+    background-color: hsl(0, 100%, 70%);
+  }
+}
